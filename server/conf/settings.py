@@ -42,3 +42,8 @@ try:
     from server.conf.secret_settings import *
 except ImportError:
     print("secret_settings.py file not found or failed to import.")
+
+######################################################################
+# "Ticking away the moments that nmake up a dog day - waiting for
+# someone or something to show you the way" -- Pink Floyd
+TIME_FACTOR = 1.0
