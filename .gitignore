@@ -50,3 +50,6 @@ nosetests.xml
 
 # PyCharm config
 .idea
+
+# Visual Studio Code
+*.code-workspace
