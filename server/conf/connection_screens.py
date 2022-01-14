@@ -25,12 +25,9 @@ from evennia import utils
 
 CONNECTION_SCREEN = """
 |b==============================================================|n
- Welcome to |g{}|n, version {}!
-
- If you have an existing account, connect to it by typing:
-      |wconnect <username> <password>|n
- If you need to create an account, type (without the <>'s):
-      |wcreate <username> <password>|n
+ Welcome to taviMUD 0.1.0-alpha!
+ 
+This server is running on |g{}|n, version {}.
 
  Enter |whelp|n for more info. |wlook|n will re-show this screen.
 |b==============================================================|n""".format(
