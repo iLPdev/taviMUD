@@ -25,9 +25,9 @@ from evennia import utils
 
 CONNECTION_SCREEN = """
 |b==============================================================|n
- Welcome to taviMUD 0.1.0-alpha!
+ Welcome to |g{}|n v0.1.0-alpha!
  
-This server is running on |g{}|n, version {}.
+ This server is running on Evennia v{}.
 
  Enter |whelp|n for more info. |wlook|n will re-show this screen.
 |b==============================================================|n""".format(
