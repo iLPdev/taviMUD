@@ -42,3 +42,11 @@ try:
     from server.conf.secret_settings import *
 except ImportError:
     print("secret_settings.py file not found or failed to import.")
+
+######################################################################
+# "Ticking away the moments that nmake up a dog day - waiting for
+# someone or something to show you the way" -- Pink Floyd
+TIME_FACTOR = 1.0
+
+# EvMenu - Vincent-lg 2016, Griatch 2019 (rework for modern EvMenu)
+CMDSET_UNLOGGEDIN = "evennia.contrib.menu_login.UnloggedinCmdSet"
