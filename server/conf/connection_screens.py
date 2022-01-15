@@ -24,15 +24,18 @@ from django.conf import settings
 from evennia import utils
 
 CONNECTION_SCREEN = """
-|b==============================================================|n
- Welcome to |g{}|n, version {}!
+|g==============================================================|n                                                                                                                                              
+                  _   _   _   _   _   _   _  
+                 / \ / \ / \ / \ / \ / \ / \ 
+                ( t | a | v | i | M | U | D )
+                 \_/ \_/ \_/ \_/ \_/ \_/ \_/                             
 
- If you have an existing account, connect to it by typing:
-      |wconnect <username> <password>|n
- If you need to create an account, type (without the <>'s):
-      |wcreate <username> <password>|n
+               Welcome to |g{}|n v0.1.0-alpha!
 
- Enter |whelp|n for more info. |wlook|n will re-show this screen.
-|b==============================================================|n""".format(
+   Experiential Learning Container for Multi-User Dynamics
+ 
+ Copyright (c)2022. Ian L Pritchard LLC. All rights reserved.
+
+|g==============================================================|n""".format(
     settings.SERVERNAME, utils.get_evennia_version("short")
 )
