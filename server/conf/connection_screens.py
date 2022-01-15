@@ -25,17 +25,16 @@ from evennia import utils
 
 CONNECTION_SCREEN = """
 |g==============================================================|n                                                                                                                                              
-               __              _ __  _____  ______ 
-              / /_____ __   __(_)  |/  / / / / __ \ 
-             / __/ __ `/ | / / / /|_/ / / / / / / /
-            / /_/ /_/ /| |/ / / /  / / /_/ / /_/ / 
-            \__/\__,_/ |___/_/_/  /_/\____/_____/  
+                  _   _   _   _   _   _   _  
+                 / \ / \ / \ / \ / \ / \ / \ 
+                ( t | a | v | i | M | U | D )
+                 \_/ \_/ \_/ \_/ \_/ \_/ \_/                             
 
-              Welcome to |g{}|n v0.1.0-alpha!
+               Welcome to |g{}|n v0.1.0-alpha!
 
    Experiential Learning Container for Multi-User Dynamics
  
- Copyright (c) 2022. Ian L Pritchard LLC. All rights reserved.
+ Copyright (c)2022. Ian L Pritchard LLC. All rights reserved.
 
 |g==============================================================|n""".format(
     settings.SERVERNAME, utils.get_evennia_version("short")
