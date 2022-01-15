@@ -24,12 +24,19 @@ from django.conf import settings
 from evennia import utils
 
 CONNECTION_SCREEN = """
-|b==============================================================|n
- Welcome to |g{}|n v0.1.0-alpha!
- 
- This server is running on Evennia v{}.
+|g==============================================================|n                                                                                                                                              
+               __              _ __  _____  ______ 
+              / /_____ __   __(_)  |/  / / / / __ \
+             / __/ __ `/ | / / / /|_/ / / / / / / /
+            / /_/ /_/ /| |/ / / /  / / /_/ / /_/ / 
+            \__/\__,_/ |___/_/_/  /_/\____/_____/  
 
- Enter |whelp|n for more info. |wlook|n will re-show this screen.
-|b==============================================================|n""".format(
+              Welcome to |g{}|n v0.1.0-alpha!
+
+   Experiential Learning Container for Multi-User Dynamics
+ 
+ Copyright (c) 2022. Ian L Pritchard LLC. All rights reserved.
+
+|g==============================================================|n""".format(
     settings.SERVERNAME, utils.get_evennia_version("short")
 )
