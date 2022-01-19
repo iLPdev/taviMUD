@@ -50,3 +50,6 @@ TIME_FACTOR = 1.0
 
 # EvMenu - Vincent-lg 2016, Griatch 2019 (rework for modern EvMenu)
 CMDSET_UNLOGGEDIN = "evennia.contrib.menu_login.UnloggedinCmdSet"
+
+# Use command.py MuxCommand class
+COMMAND_DEFAULT_CLASS = "commands.command.MuxCommand"
