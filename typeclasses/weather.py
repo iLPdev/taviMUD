@@ -12,7 +12,7 @@ class WeatherRoom(DefaultRoom):
     
     def at_object_creation(self):
         "called only when the object is first created"
-        TICKER_HANDLER.add(60 * 1, self.at_weather_update)
+        TICKER_HANDLER.add(60, self.at_weather_update)
 
     def at_weather_update(self, *args, **kwargs):
         "ticked at regular intervals"
