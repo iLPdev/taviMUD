@@ -5,7 +5,7 @@ ECHOES = ["The sky is clear.",
             "Clouds gather overhead.",
             "It's starting to drizzle.",
             "A breeze of wind is felt.",
-            "The wind is picking up"] # etc
+            "The wind is picking up."] # etc
 
 class WeatherRoom(DefaultRoom):
     "This room is ticked at regular intervals"
