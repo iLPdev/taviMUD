@@ -53,3 +53,4 @@ nosetests.xml
 
 # Visual Studio Code
 *.code-workspace
+tavimud.code-workspace
