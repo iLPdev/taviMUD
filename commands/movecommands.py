@@ -42,3 +42,11 @@ class CmdExitErrorSouthEast(CmdExitError):
 class CmdExitErrorSouthWest(CmdExitError):
     key = "southwest"
     aliases = ["sw"]
+
+class CmdExitErrorUp(CmdExitError):
+    key = "up"
+    aliases = ["u"]
+
+class CmdExitErrorDown(CmdExitError):
+    key = "down"
+    aliases = ["d"]
