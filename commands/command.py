@@ -87,7 +87,7 @@ class MuxCommand(Command):
          """
 
          caller = self.caller
-         prompt = "|r<|ntaviMUD|r>|n "
+         prompt = "|C<|xtaviMUD|C>|n "
          caller.msg(prompt=prompt)
 
      def parse(self):

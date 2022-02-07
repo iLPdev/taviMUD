@@ -60,7 +60,7 @@ class IntrusiveThoughts(DefaultScript):
         elif rand < 0.9:
             string = "You get a great idea. Of course, you won't tell anyone."
         else:
-            string = "You suddenly feel full of power!"
+            string = "You suddenly feel lost in a familiar place."
 
         # echo the message to the object
         self.obj.msg(string)
